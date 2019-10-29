@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="0" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28497" started-at="2019-10-29T00:30:39 EDT" finished-at="2019-10-29T00:31:08 EDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="28497" started-at="2019-10-29T00:30:39 EDT" finished-at="2019-10-29T00:31:08 EDT">
+      <class name="tests.FandangoHomePage">
+        <test-method status="FAIL" signature="LogoVisibilityTest(java.lang.String)[pri:0, instance:tests.FandangoHomePage@366e2eef]" name="LogoVisibilityTest" duration-ms="0" started-at="2019-10-29T00:30:39 EDT" finished-at="2019-10-29T00:30:39 EDT">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [LogoVisibilityTest] with [class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [LogoVisibilityTest] with [class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:458)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:372)
+at org.testng.internal.Parameters.createParameters(Parameters.java:729)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:895)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:762)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.TestNG.privateMain(TestNG.java:1326)
+at org.testng.TestNG.main(TestNG.java:1294)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoVisibilityTest -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.FandangoHomePage@366e2eef]" name="setup" is-config="true" duration-ms="7147" started-at="2019-10-29T00:30:39 EDT" finished-at="2019-10-29T00:30:47 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FandangoLoginTest()[pri:0, instance:tests.FandangoHomePage@366e2eef]" name="FandangoLoginTest" duration-ms="7821" started-at="2019-10-29T00:30:47 EDT" finished-at="2019-10-29T00:30:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FandangoLoginTest -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:tests.FandangoHomePage@366e2eef]" name="closebrowser" is-config="true" duration-ms="292" started-at="2019-10-29T00:30:54 EDT" finished-at="2019-10-29T00:30:55 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.FandangoHomePage@366e2eef]" name="setup" is-config="true" duration-ms="6400" started-at="2019-10-29T00:30:55 EDT" finished-at="2019-10-29T00:31:01 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FandangoTittleTest()[pri:0, instance:tests.FandangoHomePage@366e2eef]" name="FandangoTittleTest" duration-ms="65" started-at="2019-10-29T00:31:01 EDT" finished-at="2019-10-29T00:31:01 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FandangoTittleTest -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:tests.FandangoHomePage@366e2eef]" name="closebrowser" is-config="true" duration-ms="209" started-at="2019-10-29T00:31:01 EDT" finished-at="2019-10-29T00:31:01 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.FandangoHomePage@366e2eef]" name="setup" is-config="true" duration-ms="6257" started-at="2019-10-29T00:31:01 EDT" finished-at="2019-10-29T00:31:08 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FandangoURL()[pri:0, instance:tests.FandangoHomePage@366e2eef]" name="FandangoURL" duration-ms="51" started-at="2019-10-29T00:31:08 EDT" finished-at="2019-10-29T00:31:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FandangoURL -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:tests.FandangoHomePage@366e2eef]" name="closebrowser" is-config="true" duration-ms="211" started-at="2019-10-29T00:31:08 EDT" finished-at="2019-10-29T00:31:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="SKIP" signature="LogoEnableTest(java.lang.String)[pri:0, instance:tests.FandangoHomePage@366e2eef]" name="LogoEnableTest" duration-ms="0" started-at="2019-10-29T00:31:08 EDT" depends-on-methods="tests.FandangoHomePage.LogoVisibilityTest" finished-at="2019-10-29T00:31:08 EDT">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method FandangoHomePage.LogoEnableTest(java.lang.String)[pri:0, instance:tests.FandangoHomePage@366e2eef] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method FandangoHomePage.LogoEnableTest(java.lang.String)[pri:0, instance:tests.FandangoHomePage@366e2eef] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:99)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.TestNG.privateMain(TestNG.java:1326)
+at org.testng.TestNG.main(TestNG.java:1294)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoEnableTest -->
+      </class> <!-- tests.FandangoHomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
