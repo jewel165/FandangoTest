@@ -22,7 +22,7 @@ public class DriverMethod {
 	}
 
 	public void waitTime() { //implicitwaittime
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
 	public void pageload() { // time to load the page contents.

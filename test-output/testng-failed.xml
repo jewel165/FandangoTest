@@ -8,6 +8,7 @@
         <methods>
           <include name="setup"/>
           <include name="LogoEnableTest"/>
+          <include name="FandangoLoginTest"/>
           <include name="closebrowser"/>
           <include name="LogoVisibilityTest"/>
         </methods>
