@@ -45,6 +45,11 @@ public class FandangoHomePage extends Config {
 		boolean awq =	driver.findElement(By.xpath(bb.FandangoLOGO)).isDisplayed();
 		if(awq==true) {
 			System.out.println("Fandango logo is Displayed");
+			
+			
+		}
+		else {
+			System.out.println("Fandango logo is not Displayes");
 		}
 
 	}

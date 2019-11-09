@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="1" ignored="0" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="28497" started-at="2019-10-29T00:30:39 EDT" finished-at="2019-10-29T00:31:08 EDT">
+  <suite name="Suite" duration-ms="33363" started-at="2019-11-08T21:02:58 EST" finished-at="2019-11-08T21:03:31 EST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="28497" started-at="2019-10-29T00:30:39 EDT" finished-at="2019-10-29T00:31:08 EDT">
+    <test name="Test" duration-ms="33363" started-at="2019-11-08T21:02:58 EST" finished-at="2019-11-08T21:03:31 EST">
       <class name="tests.FandangoHomePage">
-        <test-method status="FAIL" signature="LogoVisibilityTest(java.lang.String)[pri:0, instance:tests.FandangoHomePage@366e2eef]" name="LogoVisibilityTest" duration-ms="0" started-at="2019-10-29T00:30:39 EDT" finished-at="2019-10-29T00:30:39 EDT">
+        <test-method status="FAIL" signature="LogoVisibilityTest(java.lang.String)[pri:0, instance:tests.FandangoHomePage@3a5ed7a6]" name="LogoVisibilityTest" duration-ms="0" started-at="2019-11-08T21:02:58 EST" finished-at="2019-11-08T21:02:58 EST">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -42,15 +42,16 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
 at org.testng.TestNG.runSuites(TestNG.java:1032)
 at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.TestNG.privateMain(TestNG.java:1326)
-at org.testng.TestNG.main(TestNG.java:1294)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogoVisibilityTest -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.FandangoHomePage@366e2eef]" name="setup" is-config="true" duration-ms="7147" started-at="2019-10-29T00:30:39 EDT" finished-at="2019-10-29T00:30:47 EDT">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.FandangoHomePage@3a5ed7a6]" name="setup" is-config="true" duration-ms="9544" started-at="2019-11-08T21:02:58 EST" finished-at="2019-11-08T21:03:07 EST">
           <params>
             <param index="0">
               <value>
@@ -61,15 +62,15 @@ at org.testng.TestNG.main(TestNG.java:1294)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="FandangoLoginTest()[pri:0, instance:tests.FandangoHomePage@366e2eef]" name="FandangoLoginTest" duration-ms="7821" started-at="2019-10-29T00:30:47 EDT" finished-at="2019-10-29T00:30:54 EDT">
+        <test-method status="PASS" signature="FandangoLoginTest()[pri:0, instance:tests.FandangoHomePage@3a5ed7a6]" name="FandangoLoginTest" duration-ms="6644" started-at="2019-11-08T21:03:07 EST" finished-at="2019-11-08T21:03:14 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FandangoLoginTest -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:tests.FandangoHomePage@366e2eef]" name="closebrowser" is-config="true" duration-ms="292" started-at="2019-10-29T00:30:54 EDT" finished-at="2019-10-29T00:30:55 EDT">
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:tests.FandangoHomePage@3a5ed7a6]" name="closebrowser" is-config="true" duration-ms="309" started-at="2019-11-08T21:03:14 EST" finished-at="2019-11-08T21:03:14 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.FandangoHomePage@366e2eef]" name="setup" is-config="true" duration-ms="6400" started-at="2019-10-29T00:30:55 EDT" finished-at="2019-10-29T00:31:01 EDT">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.FandangoHomePage@3a5ed7a6]" name="setup" is-config="true" duration-ms="8230" started-at="2019-11-08T21:03:14 EST" finished-at="2019-11-08T21:03:22 EST">
           <params>
             <param index="0">
               <value>
@@ -80,15 +81,15 @@ at org.testng.TestNG.main(TestNG.java:1294)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="FandangoTittleTest()[pri:0, instance:tests.FandangoHomePage@366e2eef]" name="FandangoTittleTest" duration-ms="65" started-at="2019-10-29T00:31:01 EDT" finished-at="2019-10-29T00:31:01 EDT">
+        <test-method status="PASS" signature="FandangoTittleTest()[pri:0, instance:tests.FandangoHomePage@3a5ed7a6]" name="FandangoTittleTest" duration-ms="10" started-at="2019-11-08T21:03:22 EST" finished-at="2019-11-08T21:03:22 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FandangoTittleTest -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:tests.FandangoHomePage@366e2eef]" name="closebrowser" is-config="true" duration-ms="209" started-at="2019-10-29T00:31:01 EDT" finished-at="2019-10-29T00:31:01 EDT">
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:tests.FandangoHomePage@3a5ed7a6]" name="closebrowser" is-config="true" duration-ms="262" started-at="2019-11-08T21:03:22 EST" finished-at="2019-11-08T21:03:23 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.FandangoHomePage@366e2eef]" name="setup" is-config="true" duration-ms="6257" started-at="2019-10-29T00:31:01 EDT" finished-at="2019-10-29T00:31:08 EDT">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.FandangoHomePage@3a5ed7a6]" name="setup" is-config="true" duration-ms="8003" started-at="2019-11-08T21:03:23 EST" finished-at="2019-11-08T21:03:31 EST">
           <params>
             <param index="0">
               <value>
@@ -99,21 +100,21 @@ at org.testng.TestNG.main(TestNG.java:1294)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="FandangoURL()[pri:0, instance:tests.FandangoHomePage@366e2eef]" name="FandangoURL" duration-ms="51" started-at="2019-10-29T00:31:08 EDT" finished-at="2019-10-29T00:31:08 EDT">
+        <test-method status="PASS" signature="FandangoURL()[pri:0, instance:tests.FandangoHomePage@3a5ed7a6]" name="FandangoURL" duration-ms="8" started-at="2019-11-08T21:03:31 EST" finished-at="2019-11-08T21:03:31 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FandangoURL -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:tests.FandangoHomePage@366e2eef]" name="closebrowser" is-config="true" duration-ms="211" started-at="2019-10-29T00:31:08 EDT" finished-at="2019-10-29T00:31:08 EDT">
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:tests.FandangoHomePage@3a5ed7a6]" name="closebrowser" is-config="true" duration-ms="237" started-at="2019-11-08T21:03:31 EST" finished-at="2019-11-08T21:03:31 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method status="SKIP" signature="LogoEnableTest(java.lang.String)[pri:0, instance:tests.FandangoHomePage@366e2eef]" name="LogoEnableTest" duration-ms="0" started-at="2019-10-29T00:31:08 EDT" depends-on-methods="tests.FandangoHomePage.LogoVisibilityTest" finished-at="2019-10-29T00:31:08 EDT">
+        <test-method status="SKIP" signature="LogoEnableTest(java.lang.String)[pri:0, instance:tests.FandangoHomePage@3a5ed7a6]" name="LogoEnableTest" duration-ms="0" started-at="2019-11-08T21:03:31 EST" depends-on-methods="tests.FandangoHomePage.LogoVisibilityTest" finished-at="2019-11-08T21:03:31 EST">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method FandangoHomePage.LogoEnableTest(java.lang.String)[pri:0, instance:tests.FandangoHomePage@366e2eef] depends on not successfully finished methods]]>
+              <![CDATA[Method FandangoHomePage.LogoEnableTest(java.lang.String)[pri:0, instance:tests.FandangoHomePage@3a5ed7a6] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method FandangoHomePage.LogoEnableTest(java.lang.String)[pri:0, instance:tests.FandangoHomePage@366e2eef] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method FandangoHomePage.LogoEnableTest(java.lang.String)[pri:0, instance:tests.FandangoHomePage@3a5ed7a6] depends on not successfully finished methods
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:99)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -130,8 +131,9 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
 at org.testng.TestNG.runSuites(TestNG.java:1032)
 at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.TestNG.privateMain(TestNG.java:1326)
-at org.testng.TestNG.main(TestNG.java:1294)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.Throwable -->
