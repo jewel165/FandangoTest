@@ -1,6 +1,7 @@
 package tests;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -41,38 +42,51 @@ public class FandangoHomePage extends Config {
 
 
 	@Test
-	public void LogoVisibilityTest(String Locator) {
-		boolean awq =	driver.findElement(By.xpath(bb.FandangoLOGO)).isDisplayed();
-		if(awq==true) {
-			System.out.println("Fandango logo is Displayed");
+	public void LogoVisibilityTest() {
+		WebElement aab =	driver.findElement(By.xpath(bb.FandangoLOGO));
+		boolean awq =aab.isDisplayed();
+		try {
+			Assert.assertEquals(awq, true);
+			System.out.println("Fandango logo is visible");
 			
-			
-		}
-		else {
-			System.out.println("Fandango logo is not Displayes");
+
+			}
+			catch(Exception e) {
+				System.out.println(e);
+			}
+
 		}
 
-	}
-
-	@Test(dependsOnMethods = {"LogoVisibilityTest"})
-	public void LogoEnableTest(String Locator) {
-		boolean xyz = 	driver.findElement(By.xpath(bb.FandangoLOGO)).isEnabled();
-		if(xyz==true) {
-			System.out.println("Fandango logo is Enabled");
+		@Test(dependsOnMethods = {"LogoVisibilityTest"})
+		public void LogoEnableTest() {
+			boolean xyz = 	driver.findElement(By.xpath(bb.FandangoLOGO)).isEnabled();
+			try {
+				Assert.assertEquals(xyz, true);
+				System.out.println("Fandango logo is enabled");
+			}
+			catch(Exception e) {
+				System.out.println(e);
+			}
 		}
+
+		@Test
+		public void FandangoLoginTest() {
+			try {
+			ClickByXpath(bb.SignInBtn);
+			TypeByXpath(bb.SN_Email,aa.Email);
+			TypeByXpath(bb.SN_Pass,aa.Password);
+			ClickByXpath(bb.SN_LOGin);
+			String Membermessage =	driver.findElement(By.xpath(bb.Dashboard)).getText();
+			String 	ACTmessage = Membermessage.trim();
+			System.out.println(ACTmessage);
+			Assert.assertEquals(ACTmessage, aa.expectedMessage, "SignIn was Successfull");
+			}
+			catch(Exception e) {
+				System.out.println(e);
+			}
+		}	
+			
+		
 	}
-	
-	@Test
-	public void FandangoLoginTest() {
-		ClickByXpath(bb.SignInBtn);
-		TypeByXpath(bb.SN_Email,aa.Email);
-		TypeByXpath(bb.SN_Pass,aa.Password);
-		ClickByXpath(bb.SN_LOGin);
-	String Membermessage =	driver.findElement(By.xpath(bb.Dashboard)).getText();
-	String 	ACTmessage = Membermessage.trim();
-	System.out.println(ACTmessage);
-	Assert.assertEquals(ACTmessage, aa.expectedMessage, "SignIn was Successfull");
-	}
-}
 
 

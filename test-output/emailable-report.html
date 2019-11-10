@@ -9,42 +9,14 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">2</td><td class="num">36,685</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">48,130</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">tests.FandangoHomePage</td><td><a href="#m0">FandangoLoginTest</a></td><td rowspan="1">1573266657477</td><td rowspan="1">12501</td></tr><tr class="failedeven"><td><a href="#m1">LogoVisibilityTest</a></td><td rowspan="1">1573266650647</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">tests.FandangoHomePage</td><td><a href="#m2">LogoEnableTest</a></td><td rowspan="1">1573266687295</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">tests.FandangoHomePage</td><td><a href="#m3">FandangoTittleTest</a></td><td rowspan="1">1573266678617</td><td rowspan="1">35</td></tr><tr class="passedeven"><td><a href="#m4">FandangoURL</a></td><td rowspan="1">1573266687026</td><td rowspan="1">21</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">tests.FandangoHomePage</td><td><a href="#m0">FandangoLoginTest</a></td><td rowspan="1">1573427285333</td><td rowspan="1">10511</td></tr><tr class="passedeven"><td><a href="#m1">FandangoTittleTest</a></td><td rowspan="1">1573427310743</td><td rowspan="1">10</td></tr><tr class="passedeven"><td><a href="#m2">FandangoURL</a></td><td rowspan="1">1573427317927</td><td rowspan="1">10</td></tr><tr class="passedeven"><td><a href="#m3">LogoEnableTest</a></td><td rowspan="1">1573427325028</td><td rowspan="1">30</td></tr><tr class="passedeven"><td><a href="#m4">LogoVisibilityTest</a></td><td rowspan="1">1573427303251</td><td rowspan="1">85</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">tests.FandangoHomePage#FandangoLoginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;UsernameBox&quot;]&quot;}
-  (Session info: chrome=78.0.3904.87)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
-System info: host: &apos;MDs-MacBook-Air.fios-router.home&apos;, ip: &apos;fe80:0:0:0:c13:a9fa:a737:cec1%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.1&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/tx/_y6jrbnj0_9...}, goog:chromeOptions: {debuggerAddress: localhost:51489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5ede27bdd5e28a9a685044f45c297205
-*** Element info: {Using=xpath, value=//*[@id=&quot;UsernameBox&quot;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at util.DriverMethod.TypeByXpath(DriverMethod.java:46)
-	at tests.FandangoHomePage.FandangoLoginTest(FandangoHomePage.java:68)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.FandangoHomePage#LogoVisibilityTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Cannot inject @Test annotated Method [LogoVisibilityTest] with [class java.lang.String].
-For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">tests.FandangoHomePage#LogoEnableTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method FandangoHomePage.LogoEnableTest(java.lang.String)[pri:0, instance:tests.FandangoHomePage@3a5ed7a6] depends on not successfully finished methods
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">tests.FandangoHomePage#FandangoTittleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">tests.FandangoHomePage#FandangoURL</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">tests.FandangoHomePage#FandangoLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.FandangoHomePage#FandangoTittleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.FandangoHomePage#FandangoURL</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.FandangoHomePage#LogoEnableTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.FandangoHomePage#LogoVisibilityTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
