@@ -87,7 +87,7 @@ public class FandangoHomePage extends Config {
 		}
 		@Test
 		public void demotest() {
-			System.out.println("this is a test");
+			System.out.println("this is a test");// to check git on terminal
 		}
 			
 		
