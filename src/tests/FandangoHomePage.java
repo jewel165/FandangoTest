@@ -84,7 +84,11 @@ public class FandangoHomePage extends Config {
 			catch(Exception e) {
 				System.out.println(e);
 			}
-		}	
+		}
+		@Test
+		public void demotest() {
+			System.out.println("this is a test");
+		}
 			
 		
 	}
